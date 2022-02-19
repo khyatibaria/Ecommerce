@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Khyati Baria" />
+    <meta name="description" content="Book House - An Ecommerce Shop for all Book Lovers" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://pixel-u-i.netlify.app/Components/pixelui.css" />
+    <link rel="stylesheet" type="text/css" href="./login.css" />
+    <script src="https://kit.fontawesome.com/99b4ab4b7a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="navigation grid-item">
+            <nav class="navigation">
+                <div class="navigation-bar">
+                    <div class="navigation-logo">
+                        <!-- <img src="./logo.svg" /> -->
+                        <i class="fas fa-book fa-2x"></i>
+                        <h2>Book House</h2>
+                    </div>
+                    <div class="navigation-search">
+                        <span class="search-icon"><i class="fas fa-search"></i></span>
+                        <input placeholder="Search here" />
+                    </div>
+                    <div class="navigation-links">
+                        <ul class="inline-links">
+                            <li>
+                                <a href="#" class="icon-links" title="Profile">
+                                    <figure class="icon-badge">
+                                        <img class="img-responsive" src="./assets/profile.svg" />
+                                    </figure>  
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-links" title="Wishlist">
+                                    <figure class="icon-badge">
+                                    <img class="img-responsive" src="./assets/heart.svg" />
+                                    <div class="icon-badge-count badge-red" id="icon">0</div>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./login.css" class="icon-links" title="Add to Cart">
+                                   <figure class="icon-badge">
+                                    <img class="img-responsive" src="./assets/cart.svg" />
+                                    <div class="icon-badge-count badge-red" id="icon">0</div>
+                                    </figure>
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+        <div class="main grid-item">
+                <div class="login-box shadow">
+                    <h1 class="text-center text-primary">Login</h1>
+                    <div class="input-group">
+                        <input type="text" id="login-email" class="input" placeholder="khyatibaria55@gmailcom"/>
+                        <label class="input-label" for="login-email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="login-password" class="input" placeholder="********"/>
+                        <label class="input-label" for="login-password">Password</label>
+                    </div>
+                    <div class="remember-me">
+                        <input type="checkbox"></input>
+                        <label>Remember me</label>
+                        <a class="forget-password login-linkBtn" href="#">Forget Password?</a>
+                    </div>  
+                                          
+  
+                    <button class="login-btn">Login</button>
+                    <a class="new-acc login-linkBtn" href="#">Create New Account<span><i class="fas fa-angle-right"></i></span></a>
+                </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
