@@ -4,10 +4,10 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "navigation navigation navigation navigation"
-    "main main main main";
+    "navigation"
+    "main";
 }
 
 .navigation {
@@ -55,7 +55,6 @@ body {
 }
 
 .login-btn {
-  display: block;
   align-self: center;
   width: 100%;
   outline: none;
