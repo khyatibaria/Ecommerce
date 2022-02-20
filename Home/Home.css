@@ -68,8 +68,11 @@ body {
   border-radius: 50%;
 }
 
+.category-link {
+  text-decoration: none;
+}
 .card {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .footer {
