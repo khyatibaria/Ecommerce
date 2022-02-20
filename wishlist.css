@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "navigation"
+    "main";
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.main {
+  grid-area: main;
+  margin: 2rem auto;
+  max-width: 85%;
+}
+
+.wishlist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  background-color: #f5f5f5;
+}
+
+.wishlist-btn {
+  color: var(--danger-color);
+}
+
+.card-button {
+  background-color: var(--primary-color);
+}
