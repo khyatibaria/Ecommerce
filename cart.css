@@ -26,6 +26,13 @@
   background-color: var(--primary-color);
 }
 
+.quantity-btn {
+  color: var(--black);
+}
+
+.card-input {
+  background-color: #f5f5f5;
+}
 .price-head {
   text-align: center;
   margin-top: 2rem;
