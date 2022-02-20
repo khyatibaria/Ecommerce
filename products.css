@@ -1,0 +1,101 @@
+body {
+  background-color: #f5f5f5;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "navigation navigation navigation navigation"
+    "sidebar main main main"
+    "sidebar main main main";
+  grid-gap: 1rem;
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.main {
+  grid-area: main;
+  margin: 1rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  margin: 1rem;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+.card {
+  background-color: #f5f5f5;
+}
+
+.card-button {
+  background-color: var(--primary-color);
+}
+
+.sidebar-container {
+  background-color: white;
+  padding: 1rem;
+}
+.product-filter,
+.price-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price-range {
+  margin: 0.5rem;
+}
+.filter-head {
+  margin: 0.5rem;
+  color: var(--primary-color);
+}
+
+.price-input {
+  margin-bottom: 1rem;
+  width: 100%;
+  color: var(--primary-color);
+}
+.category-filter {
+  list-style: none;
+}
+
+.category-list {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.category-list > input {
+  margin: 0.5rem;
+}
+.rating-filter {
+  list-style: none;
+}
+
+.rating-list,
+.sort-list {
+  display: block;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.rating-list > input {
+  margin: 0.5rem;
+}
+.sort-filter {
+  list-style: none;
+}
+
+.sort-list > input {
+  margin: 0.5rem;
+}
