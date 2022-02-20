@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Khyati Baria" />
+    <meta name="description" content="Book House - An Ecommerce Shop for all Book Lovers" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="https://pixel-u-i.netlify.app/Components/pixelui.css" />
+    <link rel="stylesheet" type="text/css" href="./cart.css" />
+    <link rel="stylesheet" type="text/css" href="./variable.css" />
+    <script src="https://kit.fontawesome.com/99b4ab4b7a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="navigation grid-item">
+            <nav class="navigation">
+                <div class="navigation-bar">
+                    <div class="navigation-logo">
+                        <!-- <img src="./logo.svg" /> -->
+                        <i class="fas fa-book fa-2x"></i>
+                        <h2>Book House</h2>
+                    </div>
+                    <div class="navigation-search">
+                        <span class="search-icon"><i class="fas fa-search"></i></span>
+                        <input placeholder="Search here" />
+                    </div>
+                    <div class="navigation-links">
+                        <ul class="inline-links">
+                            <li>
+                                <a href="#" class="icon-links" title="Profile">
+                                    <figure class="icon-badge">
+                                        <img class="img-responsive" src="./assets/profile.svg" />
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-links" title="Wishlist">
+                                    <figure class="icon-badge">
+                                        <img class="img-responsive" src="./assets/heart.svg" />
+                                        <div class="icon-badge-count badge-red" id="icon">4</div>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./login.css" class="icon-links" title="Add to Cart">
+                                    <figure class="icon-badge">
+                                        <img class="img-responsive" src="./assets/cart.svg" />
+                                        <div class="icon-badge-count badge-red" id="icon">2</div>
+                                    </figure>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+        <div class="main grid-item">
+            <h2 class="price-head">My Cart(2)</h2>
+            <div class="cart-container">
+                <div class="cart-items">
+                    <div class="horizontal-card">
+                        <div class="horizontal-cardHead">
+                            <div class="horizontal-cardBadge">
+                                <div class="card-close"><i class="fas fa-times"></i></div>
+                            </div>
+                            <img class="horizontal-cardImg" src="assets/book0.jpg"
+                                alt="media" />
+                        </div>
+                    
+                        <div class="horizontal-cardBody">
+                            <div class="horizontal-cardTitle">
+                                <div class="card-title">The Alchemist</div>
+                                <div class="card-subtitle">By Panlo Coelho</div>
+                            </div>
+                            <div class="horizontal-cardText">Rs.299/-</div>
+                            <div class="horizontal-cardQuantity">
+                                <span class="card-quantity">Quantity:-</span>
+                                <button class="quantity-btn">
+                                    <i class="fas fa-plus-square"></i>
+                                </button>
+                                <input class="card-input" />
+                                <button class="quantity-btn">
+                                    <i class="fas fa-minus-square"></i>
+                                </button>
+                            </div>
+                            <button class="horizontal-cardBtn">Move to Wishlist</button>
+                            <button class="horizontal-cardBtn">Remove from Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="horizontal-card">
+                        <div class="horizontal-cardHead">
+                            <div class="horizontal-cardBadge">
+                                <div class="card-close"><i class="fas fa-times"></i></div>
+                            </div>
+                            <img class="horizontal-cardImg" src="./assets/book1.jpg" alt="media" />
+                        </div>
+                    
+                        <div class="horizontal-cardBody">
+                            <div class="horizontal-cardTitle">
+                                <div class="card-title">Eat That Frog</div>
+                                <div class="card-subtitle">By Brian Trancy</div>
+                            </div>
+                            <div class="horizontal-cardText">Rs.399/-</div>
+                            <div class="horizontal-cardQuantity">
+                                <span class="card-quantity">Quantity:-</span>
+                                <button class="quantity-btn">
+                                    <i class="fas fa-plus-square"></i>
+                                </button>
+                                <input class="card-input" />
+                                <button class="quantity-btn">
+                                    <i class="fas fa-minus-square"></i>
+                                </button>
+                            </div>
+                            <button class="horizontal-cardBtn">Move to Wishlist</button>
+                            <button class="horizontal-cardBtn">Remove from Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-sidebar">
+                        <h2 class="text-center">Price Details</h2>
+                        <hr>
+                        <ul class="cart-lists">
+                            <li class="item-lists">Price<span class="price"> ₹ 700/-</span></li>
+                            <li class="item-lists">Discount<span class="price"> - ₹ 100/-</span></li>
+                            <li class="item-lists">Delivery Charge<span class="price"> ₹ 50/-</span></li>
+                            <li class="item-lists"><strong>Total Amount</strong><span class="price"><strong>₹ 650/-</strong></span></li>
+                        </ul>
+                       <button class="btn order-btn">Place Order</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
